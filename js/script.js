@@ -86,7 +86,7 @@ document.querySelector("#terminar").addEventListener("click", () => {
 <h3> Ganador: ${ganador} </h3>`
 
         document.querySelector("#puntuaciones").innerHTML = puntuacionesHTML;
-        document.querySelector("#lanzar-j1").enabled = true;
+        document.querySelector("#lanzar-j1").disabled = true;
         document.querySelector("#lanzar-j2").disabled = true;
         document.querySelector("#terminar").disabled = true;
 
